@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KITTY</title>
+   <!-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+  <header class="header">
+    <h1>KITTY</h1>
+    <a href="https://github.com/kanduri-abhinay/kitty_the_chatbot" target="_blank" title="GitHub repository" class="header__github-link">
+      <img src="resources/github.png" alt="GitHub"></a>
+  </header>
+  <main>
+    <section class="chat">
+      <div class="conversation" id="conversation">
+        <h2 class="conversation__heading">
+          <span class="conversation__heading__text--loading">kitty is sleeping please wait. This may take a while..</span>
+          <span class="conversation__heading__text--ready">Say Hi.</span>
+        </h2>
+      </div>
+      <div class="chat__input">
+        <div class="input-window">
+          <input type="text" class="input-window__text" id="input-text" disabled placeholder="Loading...">
+          <div class="input-window__temp">
+           
+            <label for="temperature"><span class="input-window__temp__val" id="temperature-display"></span></label>
+            <input type="range" class="input-window__range" name="temperature" id="slider-range" min="0" max="1" step="0.01">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+ <footer>
+  <span  class=" glyphicon glyphicon-cloud " id="weather" style="font-size: 30px; padding-left: 30px;"></span> 
+  <span  class=" glyphicon glyphicon-record " id="voice" style="font-size: 30px; padding-left: 10px;"></span>     
+</footer>
+<script src="dist/bundle.js"></script>
+</body>
+</html>
