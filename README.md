@@ -2,4 +2,5 @@
 
 Demo can be viewed here
 
-[![Watch the video](https://i.ytimg.com/vi/vgJE0wkNdeg/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDZCrw8ILdzpPaLHolHdFWM4m7gtg)](https://youtu.be/-Avq4TvnIpk)
+[![Watch the video](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQL7RLWmTlaCU5kK1Cjz03hvXtYh9A4IdpRHQ&usqp=CAU)](https://www.youtube.com/watch?v=vgJE0wkNdeg)
+
